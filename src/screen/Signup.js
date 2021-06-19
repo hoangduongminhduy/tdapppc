@@ -6,8 +6,10 @@ function Login() {
   
     return (
       <View style={styles.container}>
+        <View style={{backgroundColor:'#003f5c', borderRadius:30}}>
         <Text style={styles.logo}>TDVN</Text>
-        <Text style={{color:'white', marginBottom:40}}>Giải pháp kết nối tuyển dụng</Text>
+        </View>
+        
         <View style={styles.inputView} >
           <TextInput  
             style={styles.inputText}
@@ -29,7 +31,7 @@ function Login() {
         <TouchableOpacity style={styles.loginBtn}>
           <Text style={styles.loginText}>ĐĂNG NHẬP</Text>
         </TouchableOpacity>
-        <TouchableOpacity onPress={}>
+        <TouchableOpacity>
           <Text style={styles.loginText}>ĐĂNG KÝ</Text>
         </TouchableOpacity>
 
