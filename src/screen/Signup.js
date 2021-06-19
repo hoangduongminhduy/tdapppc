@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import {View, Text, StyleSheet, TextInput, TouchableOpacity} from 'react-native';
 
 
-function Login() {
+function Signup() {
   
     return (
       <View style={styles.container}>
-        <View style={{backgroundColor:'#003f5c', borderRadius:30}}>
-        <Text style={styles.logo}>TDVN</Text>
+        <View style={{backgroundColor:'#003f5c', borderRadius:30, height:30}}>
+          <Text style={styles.logo}>TDVN</Text>
         </View>
         
         <View style={styles.inputView} >
@@ -43,7 +43,7 @@ function Login() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#003f5c',
+    backgroundColor: '#000000',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -85,4 +85,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Login;
+export default Signup;

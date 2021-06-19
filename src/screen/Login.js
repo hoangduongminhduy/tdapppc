@@ -29,7 +29,7 @@ function Login() {
         <TouchableOpacity style={styles.loginBtn}>
           <Text style={styles.loginText}>ĐĂNG NHẬP</Text>
         </TouchableOpacity>
-        <TouchableOpacity onPress={}>
+        <TouchableOpacity>
           <Text style={styles.loginText}>ĐĂNG KÝ</Text>
         </TouchableOpacity>
 

@@ -6,12 +6,13 @@
  * @flow strict-local
  */
 import React from 'react';
-import {View, Text} from 'react-native';
 import Login from './src/screen/Login';
+// import HomeStack from './src/route/HomeStack';
 
 function App(){
   return (
-    <Login/>
+    // <HomeStack></HomeStack>
+    <Login />
   );
 };
 
