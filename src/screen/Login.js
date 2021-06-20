@@ -7,7 +7,7 @@ function Login({navigation}) {
     return (
       <View style={styles.container}>
         <Text style={styles.logo}>TDVN</Text>
-        <Text style={{color:'white', marginBottom:40}}>Giải pháp kết nối tuyển dụng</Text>
+        <Text style={{color:'white', marginBottom:40, fontSize:15}}>Giải pháp kết nối tuyển dụng</Text>
         <View style={styles.inputView} >
           <TextInput  
             style={styles.inputText}
