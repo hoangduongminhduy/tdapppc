@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {View, Text, StyleSheet, TextInput, TouchableOpacity} from 'react-native';
 
 
-function Login() {
+function Login({navigation}) {
   
     return (
       <View style={styles.container}>
@@ -29,7 +29,7 @@ function Login() {
         <TouchableOpacity style={styles.loginBtn}>
           <Text style={styles.loginText}>ĐĂNG NHẬP</Text>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Signup')}>
           <Text style={styles.loginText}>ĐĂNG KÝ</Text>
         </TouchableOpacity>
 

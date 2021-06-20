@@ -6,14 +6,24 @@
  * @flow strict-local
  */
 import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 import Login from './src/screen/Login';
-// import HomeStack from './src/route/HomeStack';
+import Signup from './src/screen/Signup';
+import { SafeAreaView, View } from 'react-native';
 
-function App(){
+
+const Stack = createStackNavigator();
+
+function App() {
   return (
-    // <HomeStack></HomeStack>
-    <Login />
+      <NavigationContainer>
+        <Stack.Navigator initialRouteName="Login" screenOptions={{headerShown: false}}>
+          <Stack.Screen name="Login" component={Login} />
+          <Stack.Screen name="Signup" component={Signup} />
+        </Stack.Navigator>
+      </NavigationContainer>
   );
-};
+}
 
 export default App;
