@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {View, Text, StyleSheet, TextInput, TouchableOpacity, KeyboardAvoidingView, ScrollView} from 'react-native';
-import RNPickerSelect from 'react-native-picker-select';
 
 
 function checkSignup(){
